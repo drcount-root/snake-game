@@ -42,7 +42,7 @@ function drawCanvas() {
       let pixel = pixels.get(key);
       let background = "white";
       if (key === currentFoodKey) {
-        background = "#556B2F";
+        background = "#BA0F30";
       } else if (currentSnakeKeys.has(key)) {
         background = "black";
       }
@@ -188,7 +188,7 @@ function startGame() {
   currentVacantKeys = vacantKeys;
 
   canvas.style.borderColor = "";
-  gameInterval = setInterval(step, 50);
+  gameInterval = setInterval(step, 100);
   drawCanvas();
 }
 
