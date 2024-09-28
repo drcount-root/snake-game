@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Snake JS - Richh</title>
+        <title>Snake Game</title>
         <meta name="description" content="Richh NextJS Starter" />
         <GlobalMeta />
       </Head>

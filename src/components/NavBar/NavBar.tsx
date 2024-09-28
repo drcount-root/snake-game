@@ -20,7 +20,7 @@ const NavBar = (props: NavBarProps) => (
 
       <NavBarGroup3>
         <IconLink
-          href="https://github.com/richhdev/snake"
+          href="https://github.com/drcount-root/snake-game"
           target="_blank"
           aria-label="github"
         >
